@@ -1,0 +1,42 @@
+# Ignore build and binary files
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.so
+*.dll
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore editor and IDE files
+.vscode/
+.cph/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore backup and temporary files
+*~
+*.swp
+*.tmp
+*.bak
+
+# Ignore CMake and Make build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore OneDrive sync files
+*.lnk
+*.tmp.driveupload
+
+# Ignore Python cache (if any)
+__pycache__/
