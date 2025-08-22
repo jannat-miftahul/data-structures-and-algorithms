@@ -1,3 +1,3 @@
-# DSA (Data Structures and Algorithms)
+# Data Structures and Algorithms (DSA)
 
-This repository contains C++ implementations and practice problems for fundamental data structures and algorithms.
+This repository contains C++ implementations of fundamental data structures and algorithms.
