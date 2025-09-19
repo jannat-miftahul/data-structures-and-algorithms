@@ -3,7 +3,7 @@ using namespace std;
 
 int val[100005], wt[100005];
 
-int knapsack(int i, int mx_wt){
+int knapsack(int i, int mx_wt){ // complexity: O(2^n)
     if(i < 0 || mx_wt <= 0)
         return 0;
 
@@ -14,7 +14,7 @@ int knapsack(int i, int mx_wt){
         return max(op1, op2);
     }
     else{
-        int op2 = knapsack(i - 1, mx_wt);
+        return knapsack(i - 1, mx_wt);
     }
 }
 

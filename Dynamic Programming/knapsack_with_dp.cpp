@@ -4,7 +4,7 @@ using namespace std;
 int val[100005], wt[100005];
 int dp[1005][1005];
 
-int knapsack(int i, int mx_wt){
+int knapsack(int i, int mx_wt){ // complexity: O(n * mx_wt)
     if(i < 0 || mx_wt <= 0)
         return 0;
 
