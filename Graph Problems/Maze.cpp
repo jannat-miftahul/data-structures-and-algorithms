@@ -53,10 +53,10 @@ int main() {
     for(int i = 0; i < n; i++){
         for(int j = 0; j < m; j++){
             cin >> grid[i][j];
-            if(grid[i][j] == 'R') {
+            if(grid[i][j] == 'R'){
                 si = i; sj = j;
             }
-            if(grid[i][j] == 'D') {
+            if(grid[i][j] == 'D'){
                 di = i; dj = j;
             }
         }
